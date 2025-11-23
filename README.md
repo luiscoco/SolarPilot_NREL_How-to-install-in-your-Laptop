@@ -75,9 +75,6 @@ C:\wxWidgets-3.1.1\build\msw\vc_x64_mswud
 
 <img width="1227" height="381" alt="image" src="https://github.com/user-attachments/assets/a7bb7988-0802-4c58-87a3-b7499c7cd575" />
 
-
-
-
 ## Step 3: Download and Install CMake
 
 We download CMake version 3.31.10
@@ -121,6 +118,29 @@ git clone https://github.com/nrel/soltrace
 git clone https://github.com/mjwagner2/ssc
 git clone https://github.com/nrel/solarpilot
 ```
+
+Rename ssc → ssc-solarpilot:
+
+ren ssc ssc-solarpilot
+
+Checkout the right branches (according to wiki): 
+
+```
+cd lk
+git checkout develop
+cd ..\wex
+git checkout develop
+cd ..\soltrace
+git checkout develop
+cd ..\ssc-solarpilot
+git checkout solarpilot-develop
+cd ..\solarpilot     rem (often develop; if needed) 
+git checkout develop
+cd ..
+```
+
+<img width="360" height="300" alt="image" src="https://github.com/user-attachments/assets/77fc74c1-7660-4887-ad7a-5a71a330eb3c" />
+
 ## Step 5: Set Environment Variables
 
 ## Step 6: Run CMake to Generate SolarPILOT VS 2022 Project Files
