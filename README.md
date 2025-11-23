@@ -173,10 +173,36 @@ You should see real paths, for example:
 
 <img width="367" height="160" alt="image" src="https://github.com/user-attachments/assets/9d9798ac-94c9-4e5d-810f-761c0da83131" />
 
-
-
-
 ## Step 6: Run CMake to Generate SolarPILOT VS 2022 Project Files
+
+We first confirm the CMake installed version have a Generator for VS 2022 v17
+
+```
+C:\solarpilot_dev>cmake --help
+```
+
+<img width="436" height="141" alt="image" src="https://github.com/user-attachments/assets/2585e768-17c5-4b89-be60-c647514fc883" />
+
+<img width="946" height="376" alt="image" src="https://github.com/user-attachments/assets/3b3742e7-a0d1-4214-8b0e-b11878b0721b" />
+
+In C:\solarpilot_dev, create a file called **CMakeLists.txt** with exactly:
+
+```
+cmake_minimum_required(VERSION 3.12)
+project(solarpilot_ui)
+
+add_subdirectory(lk)
+add_subdirectory(wex)
+add_subdirectory(ssc-solarpilot)
+add_subdirectory(soltrace/coretrace)
+add_subdirectory(solarpilot)
+```
+
+Make sure there is only one CMakeLists.txt in that top-level folder.
+
+<img width="828" height="432" alt="image" src="https://github.com/user-attachments/assets/177883af-b96d-4975-b743-39034a023777" />
+
+<img width="537" height="315" alt="image" src="https://github.com/user-attachments/assets/2f996d67-f98c-40cb-9159-e54e5373fade" />
 
 
 
