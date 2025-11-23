@@ -255,7 +255,20 @@ After executing SolarPilot we verify the latest version 1.6.0
 
 <img width="1328" height="916" alt="image" src="https://github.com/user-attachments/assets/a9f4de5a-995e-4f7c-9765-75532c04c983" />
 
-## Step 4: 
+## Step 9: Open and Run a Sample
+
+We open the Sample file:
+
+<img width="1319" height="584" alt="image" src="https://github.com/user-attachments/assets/a163d9a6-acd8-4471-9f58-8f351565c574" />
+
+<img width="1330" height="926" alt="image" src="https://github.com/user-attachments/assets/bcf5022e-be18-48f9-a441-e47e5b05ce9f" />
+
+We Generate the SolarField:
+
+<img width="1608" height="959" alt="image" src="https://github.com/user-attachments/assets/72a739f2-78b7-44de-8603-8c21ca0f2661" />
+
+We Run the 
+
 
 
 
