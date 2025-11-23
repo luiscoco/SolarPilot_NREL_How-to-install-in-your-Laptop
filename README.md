@@ -34,7 +34,11 @@ https://github.com/wxWidgets/wxWidgets/releases/tag/v3.1.1
 
 <img width="1918" height="961" alt="image" src="https://github.com/user-attachments/assets/4988590b-5ad8-4464-ad79-17951872687f" />
 
+We extract the ZIP file in C:\wxWidgets-3.1.1 and we open the solution wx_vc15.sln with Visual Studio:
+
 <img width="1176" height="517" alt="image" src="https://github.com/user-attachments/assets/b026aaf0-5727-4a04-83b8-e79475eab95a" />
+
+We configure the projects 
 
 ## Step 3: Download and Install CMake
 
