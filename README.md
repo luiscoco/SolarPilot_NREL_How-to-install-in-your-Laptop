@@ -38,7 +38,16 @@ We extract the ZIP file in C:\wxWidgets-3.1.1 and we open the solution wx_vc15.s
 
 <img width="1176" height="517" alt="image" src="https://github.com/user-attachments/assets/b026aaf0-5727-4a04-83b8-e79475eab95a" />
 
-We configure the projects 
+We configure the Platform ToolSet (Visual Studio 2022 (v143)) in all the projects:
+
+<img width="1919" height="831" alt="image" src="https://github.com/user-attachments/assets/4f606afb-50d3-4dcc-afb5-569f0cbaf936" />
+
+<img width="1919" height="853" alt="image" src="https://github.com/user-attachments/assets/0df4b4ce-840d-4ced-a3c7-2769ba3c205e" />
+
+We select the Compilation Configuration "Release" and the Platform "x64", we confirm this for all the projects
+
+<img width="1884" height="258" alt="image" src="https://github.com/user-attachments/assets/593499cf-e2b9-4bf8-8749-7a9acc10620d" />
+
 
 ## Step 3: Download and Install CMake
 
