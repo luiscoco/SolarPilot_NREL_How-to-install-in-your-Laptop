@@ -80,15 +80,47 @@ C:\wxWidgets-3.1.1\build\msw\vc_x64_mswud
 
 ## Step 3: Download and Install CMake
 
+We download CMake version 3.31.10
+
+https://cmake.org/download/#older
+
+<img width="1919" height="469" alt="image" src="https://github.com/user-attachments/assets/2f43dcca-b3eb-4c2d-b661-1b6225256ceb" />
+
+We execute the following command to open the Environmental Variables as Administrator to have access to the System Variables:
+
+<img width="500" height="52" alt="image" src="https://github.com/user-attachments/assets/2f65efea-ed53-4f7c-8c1a-4cc18edc7f2c" />
+
+```
+C:\>SystemPropertiesAdvanced.exe
+```
+
+We confirm CMake was added to the PATH environmental variable:
+
+![Uploading image.png…]()
 
 We verify the CMake version installed:
 
 <img width="860" height="185" alt="image" src="https://github.com/user-attachments/assets/fbf55c27-8ab7-4313-908c-52715e7a66f8" />
 
-
 ## Step 4: Clone SolarPILOT Code Repositories
 
+We create a new folder solarpilot_dev in the C:\
 
+```
+C:\solarpilot_dev
+```
+
+We execute the following commands to git clone the repos:
+
+```
+cd C:\solarpilot_dev
+
+git clone https://github.com/nrel/lk
+git clone https://github.com/nrel/wex
+git clone https://github.com/nrel/soltrace
+git clone https://github.com/mjwagner2/ssc
+git clone https://github.com/nrel/solarpilot
+```
 ## Step 5: Set Environment Variables
 
 ## Step 6: Run CMake to Generate SolarPILOT VS 2022 Project Files
