@@ -204,6 +204,29 @@ Make sure there is only one CMakeLists.txt in that top-level folder.
 
 <img width="537" height="315" alt="image" src="https://github.com/user-attachments/assets/2f996d67-f98c-40cb-9159-e54e5373fade" />
 
+Create build folder & run CMake:
+
+Still in C:\solarpilot_dev:
+
+```
+mkdir build-solarpilot
+cd build-solarpilot
+```
+
+Now run CMake:
+
+```
+cmake -G "Visual Studio 17 2022" -A x64 ^
+  -DCMAKE_CONFIGURATION_TYPES="Debug;Release" ^
+  -DCMAKE_SYSTEM_VERSION=10.0 ^
+  -DSAM_SKIP_TOOLS=1 ..
+```
+
+After running the CMake command the following code will be generated:
+
+<img width="521" height="47" alt="image" src="https://github.com/user-attachments/assets/8105aaf4-6b45-4148-b633-3aae807d6580" />
+
+<img width="828" height="571" alt="image" src="https://github.com/user-attachments/assets/81dbd4aa-f352-45a4-9172-ff5149df37bf" />
 
 
 ## Step 7: Build SolarPILOT
