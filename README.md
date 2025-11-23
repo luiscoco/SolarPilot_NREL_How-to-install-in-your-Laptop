@@ -247,7 +247,13 @@ We verify the **coretrace** project is created and also a new folder **strace**
 
 ## Step 8: Run SolarPilot
 
+We verify the **SolarPILOT.exe** was generated. We double click on this file to run the application 
 
+<img width="900" height="524" alt="image" src="https://github.com/user-attachments/assets/42bde99e-003a-4fb3-ab17-923122521e05" />
+
+After executing SolarPilot we verify the latest version 1.6.0
+
+<img width="1328" height="916" alt="image" src="https://github.com/user-attachments/assets/a9f4de5a-995e-4f7c-9765-75532c04c983" />
 
 ## Step 4: 
 
