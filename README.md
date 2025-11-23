@@ -26,11 +26,31 @@ Verify the Build Tools for Visual Studio 2022 installation:
 
 <img width="1254" height="695" alt="image" src="https://github.com/user-attachments/assets/14514e8c-09cc-4fbd-bd6b-377c179fe5a5" />
 
-## Step 2: 
+## Step 2: Download and Build wxWidgets 3.1.1
 
 
 
-## Step 3: 
+## Step 3: Download and Install CMake
+
+
+We verify the CMake version installed:
+
+<img width="860" height="185" alt="image" src="https://github.com/user-attachments/assets/fbf55c27-8ab7-4313-908c-52715e7a66f8" />
+
+
+## Step 4: Clone SolarPILOT Code Repositories
+
+
+## Step 5: Set Environment Variables
+
+## Step 6: Run CMake to Generate SolarPILOT VS 2022 Project Files
+
+
+
+## Step 7: Build SolarPILOT
+
+
+## Step 8: Run SolarPilot
 
 
 
