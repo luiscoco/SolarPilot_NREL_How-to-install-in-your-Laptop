@@ -44,9 +44,21 @@ We configure the Platform ToolSet (Visual Studio 2022 (v143)) in all the project
 
 <img width="1919" height="853" alt="image" src="https://github.com/user-attachments/assets/0df4b4ce-840d-4ced-a3c7-2769ba3c205e" />
 
-We select the Compilation Configuration "Release" and the Platform "x64", we confirm this for all the projects
+We select the Compilation Configuration "Release" and the Platform "x64"
 
 <img width="1884" height="258" alt="image" src="https://github.com/user-attachments/assets/593499cf-e2b9-4bf8-8749-7a9acc10620d" />
+
+We confirm with the Configuration Manager the Compilation Configuration
+
+<img width="1078" height="257" alt="image" src="https://github.com/user-attachments/assets/11505527-4c9b-4c1d-85f4-02153eda6509" />
+
+<img width="800" height="584" alt="image" src="https://github.com/user-attachments/assets/10197c1b-ef9c-458a-b29f-d1f5ce8d6e70" />
+
+We select the Build all the project selecting the menu option Build-Batch Build
+
+<img width="1058" height="380" alt="image" src="https://github.com/user-attachments/assets/d56974d6-ee02-4797-b9a1-df80154b4c0a" />
+
+
 
 
 ## Step 3: Download and Install CMake
