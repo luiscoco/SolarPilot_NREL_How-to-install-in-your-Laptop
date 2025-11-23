@@ -12,6 +12,8 @@ https://visualstudio.microsoft.com/vs/older-downloads/
 
 <img width="1912" height="818" alt="image" src="https://github.com/user-attachments/assets/ca2ab832-0c39-46e3-8253-14c25d64f523" />
 
+https://my.visualstudio.com/Downloads?q=visual%20studio%202022&wt.mc_id=o~msft~vscom~older-downloads
+
 <img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/1ba0daf3-478d-44b3-b130-e89301c65b4c" />
 
 Be sure to install: Desktop Development for C++ and Tools for developement with Linux and Mac
