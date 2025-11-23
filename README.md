@@ -143,6 +143,39 @@ cd ..
 
 ## Step 5: Set Environment Variables
 
+Open System Properties → Advanced → Environment Variables… and add User variables:
+
+LKDIR → C:\solarpilot_dev\lk
+
+WEXDIR → C:\solarpilot_dev\wex
+
+SSCDIR → C:\solarpilot_dev\ssc-solarpilot
+
+CORETRACEDIR → C:\solarpilot_dev\soltrace\coretrace
+
+WXMSW3 → C:\wxWidgets-3.1.1
+
+**We restart out laptop**
+
+We verify the environmental variables:
+
+```
+cd C:\solarpilot_dev
+
+echo %LKDIR%
+echo %WEXDIR%
+echo %SSCDIR%
+echo %CORETRACEDIR%
+echo %WXMSW3%
+```
+
+You should see real paths, for example:
+
+<img width="367" height="160" alt="image" src="https://github.com/user-attachments/assets/9d9798ac-94c9-4e5d-810f-761c0da83131" />
+
+
+
+
 ## Step 6: Run CMake to Generate SolarPILOT VS 2022 Project Files
 
 
