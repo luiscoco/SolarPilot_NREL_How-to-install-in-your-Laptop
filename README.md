@@ -22,6 +22,10 @@ Be sure to install: Desktop Development for C++ and Tools for developement with 
 
 <img width="1675" height="711" alt="image" src="https://github.com/user-attachments/assets/80286e78-6d47-486f-ab77-8b7fa2414ee3" />
 
+Verify the Build Tools for Visual Studio 2022 installation:
+
+<img width="1254" height="695" alt="image" src="https://github.com/user-attachments/assets/14514e8c-09cc-4fbd-bd6b-377c179fe5a5" />
+
 ## Step 2: 
 
 
