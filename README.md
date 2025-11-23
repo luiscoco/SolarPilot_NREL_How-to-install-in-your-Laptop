@@ -96,7 +96,7 @@ C:\>SystemPropertiesAdvanced.exe
 
 We confirm CMake was added to the PATH environmental variable:
 
-![Uploading image.png…]()
+<img width="1364" height="666" alt="image" src="https://github.com/user-attachments/assets/d712e4b4-dd08-4d95-a0cf-990175db10e6" />
 
 We verify the CMake version installed:
 
