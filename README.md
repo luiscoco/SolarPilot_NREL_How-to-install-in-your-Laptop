@@ -28,7 +28,13 @@ Verify the Build Tools for Visual Studio 2022 installation:
 
 ## Step 2: Download and Build wxWidgets 3.1.1
 
+We download wxWidgets 3.1.1 from this web page:
 
+https://github.com/wxWidgets/wxWidgets/releases/tag/v3.1.1
+
+<img width="1918" height="961" alt="image" src="https://github.com/user-attachments/assets/4988590b-5ad8-4464-ad79-17951872687f" />
+
+<img width="1176" height="517" alt="image" src="https://github.com/user-attachments/assets/b026aaf0-5727-4a04-83b8-e79475eab95a" />
 
 ## Step 3: Download and Install CMake
 
