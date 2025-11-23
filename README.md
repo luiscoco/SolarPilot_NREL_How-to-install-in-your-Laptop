@@ -73,6 +73,9 @@ C:\wxWidgets-3.1.1\build\msw\vc_x64_mswu
 C:\wxWidgets-3.1.1\build\msw\vc_x64_mswud
 ```
 
+<img width="1227" height="381" alt="image" src="https://github.com/user-attachments/assets/a7bb7988-0802-4c58-87a3-b7499c7cd575" />
+
+
 
 
 ## Step 3: Download and Install CMake
