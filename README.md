@@ -228,6 +228,19 @@ After running the CMake command the following code will be generated:
 
 <img width="828" height="571" alt="image" src="https://github.com/user-attachments/assets/81dbd4aa-f352-45a4-9172-ff5149df37bf" />
 
+We also have to generate the 
+
+```
+cmake -G "Visual Studio 17 2022" -A x64 ^
+      -DSOLTRACE_BUILD_CORETRACE=ON ^
+      C:\solarpilot_dev\soltrace\coretrace
+```
+
+<img width="1225" height="225" alt="image" src="https://github.com/user-attachments/assets/3bf2a613-cba1-4396-a5d3-c7fb98212f87" />
+
+We verify the **coretrace** project is created and also a new folder **strace**
+
+<img width="834" height="672" alt="image" src="https://github.com/user-attachments/assets/729c358b-0af6-48f1-8791-ac45e7930079" />
 
 ## Step 7: Build SolarPILOT
 
