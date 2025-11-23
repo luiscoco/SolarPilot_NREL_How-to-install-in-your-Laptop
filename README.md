@@ -54,10 +54,24 @@ We confirm with the Configuration Manager the Compilation Configuration
 
 <img width="800" height="584" alt="image" src="https://github.com/user-attachments/assets/10197c1b-ef9c-458a-b29f-d1f5ce8d6e70" />
 
-We select the Build all the project selecting the menu option Build-Batch Build
+Now we build the solution with the Compiler configuration Release and Debug 
 
-<img width="1058" height="380" alt="image" src="https://github.com/user-attachments/assets/d56974d6-ee02-4797-b9a1-df80154b4c0a" />
+In the toolbar: 
 
+Platform: **x64**
+
+Configuration:**Debug**
+
+Then Build → Build Solution (or F7).
+
+Change configuration to **Release** and build again.
+
+After success, you should have folders:
+
+```
+C:\wxWidgets-3.1.1\build\msw\vc_x64_mswu
+C:\wxWidgets-3.1.1\build\msw\vc_x64_mswud
+```
 
 
 
